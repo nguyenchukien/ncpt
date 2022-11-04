@@ -1,0 +1,157 @@
+@media only screen and (max-width: 736px) {
+    .navbar .logo > li{
+        margin-left: 60%;
+    }
+    .navbar .main_menu > li {
+        display: none;
+    }
+    .navbar .nav_bars > svg {
+        display: block;
+        margin-right: 3px;
+
+    }
+    
+    section.seciton__course .course__detail .course {
+        margin-top: 32px;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.section_timeline {
+        align-items: flex-start;
+    }
+
+    .info_detail--1 {
+        flex-direction: column-reverse;
+    }
+
+    .info_detail--1 img {
+        width: unset;
+    }
+
+    .info_detail--1 p {
+        width: unset;
+        padding-left: unset;
+        margin: 20px;
+        text-align: justify;
+    }
+
+    .info_detail--2 {
+        flex-direction: column;
+    }
+
+    .info_detail--2 img {
+        width: unset;
+        padding-right: 5%;
+    }
+
+    .info_detail--2 p {
+        width: unset;
+        padding-left: unset;
+        margin: 20px;
+        text-align: justify;
+        padding-right: unset;
+    }
+
+    section.seciton__course > h1 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    section.seciton__course .course__detail .course__descr {
+        font-size: 1.8rem;
+    }
+
+    section.seciton__course > button {
+        padding: 0 40%;
+        width: 120%;
+        height: 60px;
+    }
+
+    section.section_timeline > h1 {
+        width: 90%;
+    }
+
+    section.section_timeline .timeline__container {
+        display: none;
+    }
+
+    .timeline__container__mobile {
+        display: block;
+    }
+
+    section.section_timeline .timeline_week_mobile > h1 {
+        height: 3rem;
+        text-align: center;
+        font-size: 1.8rem;
+        border: 1px solid;
+        background-color: red;
+        color: #fff;
+        margin-bottom: 1.8rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        border-radius: 20px;
+    }
+
+    section.section_timeline .timeline_week_mobile > h1:hover {
+        background-color: #fff;
+        color: red;
+        transition: all 0.5s;
+    }
+
+    section.section_timeline .timeline_week_mobile > p {
+        margin-bottom: 2rem;
+        font-weight: bold;
+        opacity: 0.8;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    section.section_timeline .arrow > svg{
+        height: 6rem;
+        width: 100%;
+        padding: 1rem 0;
+        
+    }
+
+    .section_state .state .state_child h3{
+        display: none;
+    }
+
+    .section_state .state .state_child h1{
+        display: none;
+    }
+
+    .section_state .state .state_child p{
+        display: none;
+    }
+
+    .footer-right {
+        display: none;
+    }
+
+    .footer-left > h1{
+        font-size: 1.8rem;
+    }
+
+    .footer-left > h2 {
+        font-weight: unset;
+        font-size: 1.5rem;
+    }
+
+    .apply-ngay {
+        right: 25px;
+    }
+
+    .apply-ngay button{
+        width: 100px;
+        height: 25px;
+    }
+
+    .apply-ngay button a {
+        font-size: 10px;
+    }
+}

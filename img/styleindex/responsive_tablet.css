@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1024px) {
+    
+    .main_menu a {
+        font-size: 1rem;
+    }
+
+    .logo {
+        margin-left: -80px;
+    }
+
+    section.section_timeline .timeline__container .timeline_week {
+        height: 325px;
+    }
+
+    .info_detail--1 {
+        flex-direction: column-reverse;
+    }
+
+    .info_detail--1 img {
+        width: unset;
+    }
+
+    .info_detail--1 p {
+        width: unset;
+        padding-left: unset;
+        margin: 20px;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .info_detail--2 {
+        flex-direction: column;
+    }
+
+    .info_detail--2 img {
+        width: unset;
+        padding-right: 5%;
+    }
+
+    .info_detail--2 p {
+        width: unset;
+        padding-left: unset;
+        margin: 20px;
+        text-align: justify;
+        padding-right: unset;
+        font-size: 1.5rem;
+    }
+
+    section.section_state .state .state_child > p {
+        font-size: 1.5rem;
+    }
+
+    section.section_state .state_special > p {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+}
