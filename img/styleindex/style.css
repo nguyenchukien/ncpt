@@ -56,7 +56,7 @@ body{
 .logo li{
     list-style-type: none;
     color:#fff;
-    line-height: 100px;
+    line-height: 60px;
     margin-left: 100px;
     font-size: 210%;
 }
@@ -68,6 +68,7 @@ body{
 header {
     position: fixed;
     width: 100%;
+    background-color: #ddd;
     top: 0;
     left: 0;
     z-index: 10;
@@ -81,7 +82,7 @@ header {
     justify-content: space-between;
     justify-items: center;
     align-items: center;
-    height: 100px;
+    height: 60px;
     width: 100%;
     position: fixed;
     position: relative;
@@ -103,7 +104,12 @@ header {
 }
 /* iphone */
 
-
+.join a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(63, 212, 78);
+    font-size: 1.5rem;
+}
 .navbar .nav_bars > svg{
     height: 50px;
     width: 50px;
@@ -187,7 +193,10 @@ section.section__banner {
     align-items: center;
     padding: 60px 0 180px 0;
     font-weight: bold;
-    margin-top: 80px; /* kích thước này phụ thuộc vào height của header */
+    padding-top: 100px; /* kích thước này phụ thuộc vào height của header */
+    background-image: url("https://cdnimg.vietnamplus.vn/t1200/Uploaded/xtsqr/2019_12_26/ICT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.section__banner > p {
@@ -459,7 +468,7 @@ section.section_timeline .timeline__container .timeline_week {
 }
 
 section.section_timeline .timeline__container .timeline_week > h1 {
-    width: 70%;
+    width: 50%;
     height: auto;
     padding: 20px;
     background-color:#00437b;
